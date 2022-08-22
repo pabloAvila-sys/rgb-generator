@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+body{
+    background-image: linear-gradient(60deg, #abecd6 0%, #fbed96 100%);
+}
+.container{
+    height: 520px;
+    width: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    background: white;
+    overflow: hidden;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.title{
+    position: absolute;
+    font-size: 20px;
+    font-family: 'Inconsolata', monospace;
+    text-transform:uppercase;
+    top:35px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.color_container{
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    top: 2%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    background: #4671ea;
+    border-radius: 10px;
+}
+
+.slider_container{
+    position: absolute;
+    height: 140px;
+    width: 100px;
+    left: 50%;
+    top: 65%;
+    transform: translate(-50%, -50%);
+    display: grid;
+    justify-content: center;
+    font-size: 18px;
+    font-family: 'Inconsolata', monospace;
+}
+
+.slider{
+    width: 100%;
+    text-align:center;
+}
+
+input[type="range"]{
+    height: 10px;
+    width: 220px;
+    margin-top: 25px;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+}
+
+.rgb_value{
+    font-family: 'Inconsolata', monospace;
+    color: #fff;
+    background: #4671EA;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: auto;
+    position: absolute;
+    left: 50%;
+    bottom: -5px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 5px;
+}
